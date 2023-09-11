@@ -49,7 +49,7 @@ const Intro = () => {
           </a>
           <a
             class="github"
-            href="https://github.com/jamesscjy"
+            href="https://github.com/jameschoojy"
             target="_blank"
             rel="noreferrer"
           >
