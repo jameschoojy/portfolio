@@ -1,0 +1,100 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 90rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.pfp {
+  position: absolute;
+  top: 17.5rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 45vh;
+  border-radius: 50%;
+  border: solid #dd134c;
+  border-width: 2px;
+}
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  font-size: 7rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: #dd134c;
+}
+
+.introPara {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.linkIcon {
+  font-size: 3rem;
+}
+.linkedin {
+  color: white;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  color: #dd134c;
+  transition: 0.5s;
+}
+
+.envelop {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.envelop:hover {
+  color: #dd134c;
+  transition: 0.5s;
+}
+
+.whatsapp {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.whatsapp:hover {
+  color: #dd134c;
+  transition: 0.5s;
+}
+
+.github {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.github:hover {
+  color: #dd134c;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 840px) {
+  .introContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
