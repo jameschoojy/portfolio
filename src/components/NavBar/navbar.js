@@ -43,7 +43,7 @@ const Navbar = () => {
           Contact
         </Link>
       </div>
-      <a class="cvlink" href="./navbar.js" download>
+      <a class="cvlink" href="./Resume.pdf" download>
         Download CV
       </a>
     </nav>
