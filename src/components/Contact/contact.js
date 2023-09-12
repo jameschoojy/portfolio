@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
+      <h2>Get In Touch</h2>
       <div class="contact-form-container">
         <div class="contact-form">
           <form action="https://formspree.io/f/xqkvlzbw" method="POST">
